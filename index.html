@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Divine Krishna Consciousness</title>
-    <meta name="description" content="Experience the divine peace of Krishna Consciousness. Chant, read wisdom, and find inner bliss.">
+    <meta name="description"
+        content="Experience the divine peace of Krishna Consciousness. Chant, read wisdom, and find inner bliss.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Outfit:wght@300;400;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!-- Hero Section -->
@@ -17,7 +22,8 @@
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1 class="main-title">Hare Krishna</h1>
-            <p class="subtitle">Hare Krishna, Krishna Krishna, Hare Hare<br>Hare Rama, Hare Rama, Rama Rama, Hare Hare</p>
+            <p class="subtitle">Hare Krishna, Krishna Krishna, Hare Hare<br>Hare Rama, Hare Rama, Rama Rama, Hare Hare
+            </p>
             <div class="scroll-indicator">
                 <span>&#8595;</span>
             </div>
@@ -51,6 +57,32 @@
         </div>
     </section>
 
+    <!-- Flower Offering Section -->
+    <section id="offering" class="offering-section">
+        <div class="container">
+            <h2 class="section-title">Offer a Flower</h2>
+            <p class="instruction">Click to offer a lotus to the Divine</p>
+            <div id="altar" class="altar-area">
+                <!-- Flowers will appear here -->
+            </div>
+            <button id="clear-flowers-btn" class="btn-outline">Clear Altar</button>
+        </div>
+    </section>
+
+    <!-- Meditation Timer Section -->
+    <section id="meditation" class="meditation-section">
+        <div class="container">
+            <h2 class="section-title">Breathe & Meditate</h2>
+            <div class="breathing-circle" id="breathing-circle">
+                <span id="breath-text">Ready</span>
+            </div>
+            <div class="timer-controls">
+                <button id="start-meditation-btn" class="btn-gold">Start Meditation</button>
+                <button id="stop-meditation-btn" class="btn-outline" style="display:none;">Stop</button>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="footer">
         <p>&copy; 2025 Divine Consciousness. Chant and be Happy.</p>
@@ -58,4 +90,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
