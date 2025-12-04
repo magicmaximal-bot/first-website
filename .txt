@@ -1,2 +1,0 @@
-git config --global user.name "magicmaximal-bot"
-git config --global user.email "magicmaximal@gmail.com"
